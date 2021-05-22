@@ -24315,9 +24315,9 @@ static const Il2CppRGCTXDefinition s_rgctxValues[7] =
 	{ (Il2CppRGCTXDataType)1, 604 },
 	{ (Il2CppRGCTXDataType)2, 604 },
 	{ (Il2CppRGCTXDataType)2, 7901 },
+	{ (Il2CppRGCTXDataType)3, 14727 },
 	{ (Il2CppRGCTXDataType)3, 14728 },
 	{ (Il2CppRGCTXDataType)3, 14729 },
-	{ (Il2CppRGCTXDataType)3, 14730 },
 };
 extern const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_CodeGenModule;
