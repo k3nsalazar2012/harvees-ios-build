@@ -1139,18 +1139,21 @@ IL2CPP_EXTERN_C String_t* _stringLiteral20AF7C7E533244FC01520D1520C5EAE96DEA90A7
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral2649D3E566B5FBA60A3C5704B247D965E5F9D090;
 IL2CPP_EXTERN_C String_t* _stringLiteral268BDB39E6C9FFEAA75571816E8248C93E943D94;
+IL2CPP_EXTERN_C String_t* _stringLiteral28197856B152CD4D819078AAE6D1559FDC753E3C;
 IL2CPP_EXTERN_C String_t* _stringLiteral29F0F5175E81B3E6E58EC19561DBD00414E99C1A;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C1BA98B404837E2099D0611A888DA347629C7AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral2DC236B0934A202DBF41971954C34FF3B6DC06A0;
 IL2CPP_EXTERN_C String_t* _stringLiteral2F2F907A6F6BDEF2701D2E3A0A541003B97D1889;
 IL2CPP_EXTERN_C String_t* _stringLiteral2F4E46201775E0ADF129743D8F10774AC9B3AE61;
 IL2CPP_EXTERN_C String_t* _stringLiteral31CE05A41BA542977665C61FB6B1B2838AC85EC9;
+IL2CPP_EXTERN_C String_t* _stringLiteral325477ACDCC74914CF3B2198EB16716DD803D4CD;
 IL2CPP_EXTERN_C String_t* _stringLiteral3363DD528784437F3055BEB329A755EA65BE7D2C;
 IL2CPP_EXTERN_C String_t* _stringLiteral39796F9FC9953B8838A1C32AD5131E8FC9F89A5D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FDE1031689ED2E836D5DF2C8745CF9EE81A09AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral41F151E2FF78482F9825EA9DDE2402B0BA9EB319;
 IL2CPP_EXTERN_C String_t* _stringLiteral45596A89C08B2CBCD6509C405FBF4E3D3EA9CE3E;
 IL2CPP_EXTERN_C String_t* _stringLiteral47E7DF78FEB33C4D463D475ACA6A5FCA4DE8ACF8;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A8EC28A6B9C2AEF70C75F1B9F64879E49EA3C9B;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D4FEC4C4A2AE0872E94121191820D326EFA8523;
 IL2CPP_EXTERN_C String_t* _stringLiteral51BF58C4010A5E6F1B17BDAF43D79F501281297A;
 IL2CPP_EXTERN_C String_t* _stringLiteral51EF4403830D16C93FADD535B3F199FEB6F6367A;
@@ -1190,6 +1193,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9216BDEF5172F1DBAACFFF605E8C99BD4A930973
 IL2CPP_EXTERN_C String_t* _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674;
 IL2CPP_EXTERN_C String_t* _stringLiteral939889F9F0AE6401AA4B1F9A70BD0EFC46DF93FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral95D0DAE112B60F9842A4DEAB59C4FE897450102F;
+IL2CPP_EXTERN_C String_t* _stringLiteral997B8F1215A9C3444FFB5DB7BC2455AFBA3BD2BA;
 IL2CPP_EXTERN_C String_t* _stringLiteral9C47894400CF122C11843043F5B6A6B5D91E6161;
 IL2CPP_EXTERN_C String_t* _stringLiteralA14C9F05ADD30FAAA460705BBF8F75E07FA620B6;
 IL2CPP_EXTERN_C String_t* _stringLiteralA16A5A766620C92E70C8F0C13BC707B1DD24BB40;
@@ -51167,13 +51171,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_Awake_m2A04A6F7A519
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisAgreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43_mF81E25DC6867D76E59EFF2C892AF366128A94276_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisMyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7_m5F7E74A8B2B3F9890EDBA591A7719C9040048C00_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisMyTotalSharedSeeds_t08295EE2F733CF832D9517444D3B7C1AE519EE8C_m8293B8D9C940BB581654CF7B0015AA3BEFA571BA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral28197856B152CD4D819078AAE6D1559FDC753E3C);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// Debug.Log("initializing notifications manager");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral28197856B152CD4D819078AAE6D1559FDC753E3C, /*hidden argument*/NULL);
 		// _agreements = FindObjectOfType<Agreements>();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_0;
@@ -51287,15 +51296,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_StopCheckingUpdates
 // System.Void Harvees.Notif.NotificationsManager::CheckWrittenContentsUpdates()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_CheckWrittenContentsUpdates_m47A5191350CC455F76ED2EBA5C7C42A7ACD4AE48 (NotificationsManager_t7EC3D330097C0741F4A0B743AA52A952DCC0A193 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// _agreements.CheckUpdateLoadTermsAndConditions();
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisAgreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43_mF81E25DC6867D76E59EFF2C892AF366128A94276_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral997B8F1215A9C3444FFB5DB7BC2455AFBA3BD2BA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (_agreements == null)
 		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_0 = __this->get__agreements_6();
-		NullCheck(L_0);
-		Agreements_CheckUpdateLoadTermsAndConditions_m998F05F5D9F8E0BD264CA6D8E06A0D2D0D3AC548(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// _agreements = FindObjectOfType<Agreements>();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_2;
+		L_2 = Object_FindObjectOfType_TisAgreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43_mF81E25DC6867D76E59EFF2C892AF366128A94276(/*hidden argument*/Object_FindObjectOfType_TisAgreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43_mF81E25DC6867D76E59EFF2C892AF366128A94276_RuntimeMethod_var);
+		__this->set__agreements_6(L_2);
+	}
+
+IL_0019:
+	{
+		// Debug.Log("check updates in written contents");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral997B8F1215A9C3444FFB5DB7BC2455AFBA3BD2BA, /*hidden argument*/NULL);
+		// _agreements.CheckUpdateLoadTermsAndConditions();
+		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_3 = __this->get__agreements_6();
+		NullCheck(L_3);
+		Agreements_CheckUpdateLoadTermsAndConditions_m998F05F5D9F8E0BD264CA6D8E06A0D2D0D3AC548(L_3, /*hidden argument*/NULL);
 		// _agreements.CheckUpdateLoadPrivacyPolicy();
-		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_1 = __this->get__agreements_6();
-		NullCheck(L_1);
-		Agreements_CheckUpdateLoadPrivacyPolicy_m6804DD32A80184E805A83CFEAE864F629F306D73(L_1, /*hidden argument*/NULL);
+		Agreements_tD1BF6DC277E6CD03F2EF630E8CD9CD2720E9BD43 * L_4 = __this->get__agreements_6();
+		NullCheck(L_4);
+		Agreements_CheckUpdateLoadPrivacyPolicy_m6804DD32A80184E805A83CFEAE864F629F306D73(L_4, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -51470,13 +51511,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_CheckNoSeedAccountU
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NoSeedNotificationItem_t3F72AEA8F1DB2C879FA51C9B32675D861EA94C32_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisPlantedSeedDetector_tA3D568512B53AE4279956B42E49F05751E16DD85_m8BCFF9D68FB33F2E170E716CA47C8F3E9487D4F2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A8EC28A6B9C2AEF70C75F1B9F64879E49EA3C9B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED10C1F1895CCCF3C56ED880E663E3879345DADD);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// Debug.Log("check no seed account notifications");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral4A8EC28A6B9C2AEF70C75F1B9F64879E49EA3C9B, /*hidden argument*/NULL);
 		// InAppNotifications.Instance.AddNotifications(new NoSeedNotificationItem());
 		InAppNotifications_t28A210E43207708071AD0A7F5085A554D1065BE9 * L_0;
 		L_0 = InAppNotifications_get_Instance_m5C9F4444227BEEBB35035FE29AA29820DA0F0B5D_inline(/*hidden argument*/NULL);
@@ -51495,7 +51541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_CheckNoSeedAccountU
 		L_4 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_3, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
 		if (!L_4)
 		{
-			goto IL_0039;
+			goto IL_0043;
 		}
 	}
 	{
@@ -51504,7 +51550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_CheckNoSeedAccountU
 		return;
 	}
 
-IL_0039:
+IL_0043:
 	{
 		// EnableSeedDetection();
 		NotificationsManager_EnableSeedDetection_m78A52C35286817DD0C151A9AF8EF0A2E0293634F(__this, /*hidden argument*/NULL);
@@ -51584,14 +51630,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationsManager_CheckSeedAccountUpd
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindObjectOfType_TisMyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7_m5F7E74A8B2B3F9890EDBA591A7719C9040048C00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1084B925496B1E281B79F4ABA38D4936EBB0BE4F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral325477ACDCC74914CF3B2198EB16716DD803D4CD);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// _myForest.GetForestGrewNotification();
+		// Debug.Log("check seed account notifications");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral325477ACDCC74914CF3B2198EB16716DD803D4CD, /*hidden argument*/NULL);
+		// if (_myForest == null)
 		MyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7 * L_0 = __this->get__myForest_9();
-		NullCheck(L_0);
-		MyForest_GetForestGrewNotification_m2ADEB6CC1016800B62AF7C6BB68B03877C13D832(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		// _myForest = FindObjectOfType<MyForest>();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		MyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7 * L_2;
+		L_2 = Object_FindObjectOfType_TisMyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7_m5F7E74A8B2B3F9890EDBA591A7719C9040048C00(/*hidden argument*/Object_FindObjectOfType_TisMyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7_m5F7E74A8B2B3F9890EDBA591A7719C9040048C00_RuntimeMethod_var);
+		__this->set__myForest_9(L_2);
+	}
+
+IL_0023:
+	{
+		// _myForest.GetForestGrewNotification();
+		MyForest_t1A28C647EDC0864F8EF19AD98F43AA875FD41CB7 * L_3 = __this->get__myForest_9();
+		NullCheck(L_3);
+		MyForest_GetForestGrewNotification_m2ADEB6CC1016800B62AF7C6BB68B03877C13D832(L_3, /*hidden argument*/NULL);
 		// InvokeRepeating(nameof(CheckRainbow), 0f, SHARED_SEED_DETECTION_RATE);
 		MonoBehaviour_InvokeRepeating_mB77F4276826FBA696A150831D190875CB5802C70(__this, _stringLiteral1084B925496B1E281B79F4ABA38D4936EBB0BE4F, (0.0f), (60.0f), /*hidden argument*/NULL);
 		// }
